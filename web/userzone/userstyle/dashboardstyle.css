@@ -1,0 +1,133 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+    overflow-x: hidden;
+}
+#outer{
+    height:auto;
+    width: 100%;
+}
+#header{
+    height: 180px;
+    width: 100%;
+    border: 0px;
+}
+#logo{
+    height: 180px;
+    width: 20%;
+    float: left;
+}
+#title{
+    height: 180px;
+    width: 80%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    background-color: skyblue;
+    color: #c14336;
+}
+#img1{
+    height: 100%;
+    width: 100%;
+}
+#menu{
+    height: 50px;
+    width: 100%;
+}
+#top{
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+ul li{
+    float: left;
+    height: 40px;
+    width: auto; 
+    padding: 0px;
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#content{
+    height: 305px;
+    width: 100%;
+    margin-top: 50px;
+}
+#op1{
+    height: 200px;
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    padding-left: 10%;
+}
+#op1 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;  
+}
+button{
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;
+    outline: none;
+}
+#point{
+    height: 80px;
+    width: 1300px;
+}
+#p1{
+    height: 80px;
+    width: 100%;
+    color: red;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+#p2{
+    height: 80px;
+    width: 200px;
+    color: red;
+    font-size: 20px;
+    float: left;
+    margin-left: 220px;
+}
+#p3{
+    height: 80px;
+    width: 200px;
+    color: red;
+    font-size: 20px;
+    float: left;
+    margin-left: 190px;
+}
+#action{
+    height: 220px;
+    width: 1300px;
+}
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 25px;
+    color: black;
+}
+@media screen and (max-width: 800px){
+    #op1{
+        width: 30%;
+        margin-right: 300px;
+        height: 120%;
+    }
+    #p1{
+        height: 20%;
+    }
+}

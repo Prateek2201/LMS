@@ -1,0 +1,86 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+    overflow-x: hidden;
+}
+#outer{
+    height:auto;
+    width: 100%;
+}
+#header{
+    height: 180px;
+    width: 100%;
+    border: 0px;
+}
+#logo{
+    height: 180px;
+    width: 20%;
+    float: left;
+}
+#title{
+    height: 180px;
+    width: 80%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    background-color: skyblue;
+    color: #c14336;
+}
+#img1{
+    height: 100%;
+    width: 100%;
+}
+#menu{
+    height: 50px;
+    width: 100%;
+}
+#top{
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    padding: 0px;
+    margin-top: 0px;
+}
+ul li{
+    float: left;
+    height: 40px;
+    width: auto; 
+    padding: 0px;
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li ul{
+    margin: 0px;
+    position: relative;
+    left: -40px;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    width: 100px;
+}
+#content{
+    height: auto;
+    width: 100%;
+}
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 25px;
+    color: black;
+}
